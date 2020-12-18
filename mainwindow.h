@@ -18,10 +18,6 @@ public:
 private slots:
     void on_open_button_clicked();
 
-    void on_page1_button_clicked();
-
-    void on_page2_button_clicked();
-
 private:
     Ui::MainWindow *ui;
 };

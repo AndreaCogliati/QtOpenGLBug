@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     MainWindow w;
-//    QWindowsWindowFunctions::setHasBorderInFullScreen(w.windowHandle(), true);
+    QWindowsWindowFunctions::setHasBorderInFullScreen(w.windowHandle(), true);
     w.show();
     return a.exec();
 }
